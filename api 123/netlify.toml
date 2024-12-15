@@ -1,7 +1,0 @@
-[build]
-  functions = "api"
-
-[[redirects]]
-  from = "/journal/api/*"
-  to = "/.netlify/functions/proxy"
-  status = 200
